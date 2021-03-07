@@ -1,0 +1,4 @@
+﻿  struct.c
+g:\git\c\hm62\d05_jni_01_07_input\d02-05_fun_pointer_03_fun_pointer_struct\struct.c(21): warning C4013: “system”未定义；假设外部返回 int
+  d02-05_fun_pointer_03_fun_pointer_struct.vcxproj -> G:\GIT\C\HM62\d05_jni_01_07_input\Debug\d02-05_fun_pointer_03_fun_pointer_struct.exe
+  d02-05_fun_pointer_03_fun_pointer_struct.vcxproj -> G:\GIT\C\HM62\d05_jni_01_07_input\Debug\d02-05_fun_pointer_03_fun_pointer_struct.pdb (Partial PDB)

@@ -1,0 +1,5 @@
+﻿  pointer.c
+g:\git\c\hm62\d05_jni_01_07_input\-15_return_stack_var_addr\pointer.c(16): warning C4013: “system”未定义；假设外部返回 int
+g:\git\c\hm62\d05_jni_01_07_input\-15_return_stack_var_addr\pointer.c(7): warning C4172: 返回局部变量或临时变量的地址: a
+  -15_return_stack_var_addr.vcxproj -> G:\GIT\C\HM62\d05_jni_01_07_input\Debug\-15_return_stack_var_addr.exe
+  -15_return_stack_var_addr.vcxproj -> G:\GIT\C\HM62\d05_jni_01_07_input\Debug\-15_return_stack_var_addr.pdb (Partial PDB)

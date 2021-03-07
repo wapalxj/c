@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/workplace/code/GIT/C/C/struct/structarray.c
+stdio.h
+D:/workplace/code/GIT/C/C/struct/stdio.h
+stdlib.h
+D:/workplace/code/GIT/C/C/struct/stdlib.h
+string.h
+D:/workplace/code/GIT/C/C/struct/string.h
+

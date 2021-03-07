@@ -1,0 +1,9 @@
+D:/workplace/code/GIT/C/C/cmake-build-debug/CMakeFiles/A.dir
+D:/workplace/code/GIT/C/C/cmake-build-debug/CMakeFiles/B.dir
+D:/workplace/code/GIT/C/C/cmake-build-debug/CMakeFiles/C.dir
+D:/workplace/code/GIT/C/C/cmake-build-debug/CMakeFiles/D.dir
+D:/workplace/code/GIT/C/C/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/workplace/code/GIT/C/C/cmake-build-debug/CMakeFiles/E.dir
+D:/workplace/code/GIT/C/C/cmake-build-debug/CMakeFiles/F.dir
+D:/workplace/code/GIT/C/C/cmake-build-debug/CMakeFiles/G.dir
+D:/workplace/code/GIT/C/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

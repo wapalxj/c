@@ -1,0 +1,20 @@
+﻿  pointer.c
+g:\git\c\hm62\d05_jni_01_07_input\d02_02_pointer_size\pointer.c(14): warning C4013: “system”未定义；假设外部返回 int
+g:\git\c\hm62\d05_jni_01_07_input\d02_02_pointer_size\pointer.c(5): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“::size_t”
+  g:\git\c\hm62\d05_jni_01_07_input\d02_02_pointer_size\pointer.c(5): note: 请考虑在格式字符串中使用“%zd”
+g:\git\c\hm62\d05_jni_01_07_input\d02_02_pointer_size\pointer.c(6): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“::size_t”
+  g:\git\c\hm62\d05_jni_01_07_input\d02_02_pointer_size\pointer.c(6): note: 请考虑在格式字符串中使用“%zd”
+g:\git\c\hm62\d05_jni_01_07_input\d02_02_pointer_size\pointer.c(7): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“::size_t”
+  g:\git\c\hm62\d05_jni_01_07_input\d02_02_pointer_size\pointer.c(7): note: 请考虑在格式字符串中使用“%zd”
+g:\git\c\hm62\d05_jni_01_07_input\d02_02_pointer_size\pointer.c(8): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“::size_t”
+  g:\git\c\hm62\d05_jni_01_07_input\d02_02_pointer_size\pointer.c(8): note: 请考虑在格式字符串中使用“%zd”
+g:\git\c\hm62\d05_jni_01_07_input\d02_02_pointer_size\pointer.c(9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“::size_t”
+  g:\git\c\hm62\d05_jni_01_07_input\d02_02_pointer_size\pointer.c(9): note: 请考虑在格式字符串中使用“%zd”
+g:\git\c\hm62\d05_jni_01_07_input\d02_02_pointer_size\pointer.c(10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“::size_t”
+  g:\git\c\hm62\d05_jni_01_07_input\d02_02_pointer_size\pointer.c(10): note: 请考虑在格式字符串中使用“%zd”
+g:\git\c\hm62\d05_jni_01_07_input\d02_02_pointer_size\pointer.c(11): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“::size_t”
+  g:\git\c\hm62\d05_jni_01_07_input\d02_02_pointer_size\pointer.c(11): note: 请考虑在格式字符串中使用“%zd”
+g:\git\c\hm62\d05_jni_01_07_input\d02_02_pointer_size\pointer.c(12): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“::size_t”
+  g:\git\c\hm62\d05_jni_01_07_input\d02_02_pointer_size\pointer.c(12): note: 请考虑在格式字符串中使用“%zd”
+  d02_02_pointer_size.vcxproj -> G:\GIT\C\HM62\d05_jni_01_07_input\x64\Debug\d02-01_pointer_size.exe
+  d02_02_pointer_size.vcxproj -> G:\GIT\C\HM62\d05_jni_01_07_input\x64\Debug\d02-01_pointer_size.pdb (Partial PDB)

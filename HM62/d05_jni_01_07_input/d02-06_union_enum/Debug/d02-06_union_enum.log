@@ -1,0 +1,4 @@
+﻿  union_enum.c
+g:\git\c\hm62\d05_jni_01_07_input\d02-06_union_enum\union_enum.c(21): warning C4101: “s”: 未引用的局部变量
+  d02-06_union_enum.vcxproj -> G:\GIT\C\HM62\d05_jni_01_07_input\Debug\d02-06_union_enum.exe
+  d02-06_union_enum.vcxproj -> G:\GIT\C\HM62\d05_jni_01_07_input\Debug\d02-06_union_enum.pdb (Partial PDB)

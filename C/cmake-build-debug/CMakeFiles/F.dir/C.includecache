@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/workplace/code/GIT/C/C/typedef.c
+stdio.h
+D:/workplace/code/GIT/C/C/stdio.h
+stdlib.h
+D:/workplace/code/GIT/C/C/stdlib.h
+string.h
+D:/workplace/code/GIT/C/C/string.h
+

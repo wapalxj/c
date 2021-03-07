@@ -1,0 +1,4 @@
+﻿  pointer.c
+g:\git\c\hm62\d05_jni_01_07_input\-13_pointer_return_more\pointer.c(15): warning C4013: “system”未定义；假设外部返回 int
+  -13_pointer_return_more.vcxproj -> G:\GIT\C\HM62\d05_jni_01_07_input\Debug\-13_pointer_return_more.exe
+  -13_pointer_return_more.vcxproj -> G:\GIT\C\HM62\d05_jni_01_07_input\Debug\-13_pointer_return_more.pdb (Partial PDB)

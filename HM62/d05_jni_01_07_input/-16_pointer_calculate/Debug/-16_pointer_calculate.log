@@ -1,0 +1,12 @@
+﻿  pointer.c
+g:\git\c\hm62\d05_jni_01_07_input\-16_pointer_calculate\pointer.c(24): warning C4013: “system”未定义；假设外部返回 int
+g:\git\c\hm62\d05_jni_01_07_input\-16_pointer_calculate\pointer.c(12): warning C4477: “printf”: 格式字符串“%#x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“char *”
+g:\git\c\hm62\d05_jni_01_07_input\-16_pointer_calculate\pointer.c(12): warning C4477: “printf”: 格式字符串“%#x”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“char *”
+g:\git\c\hm62\d05_jni_01_07_input\-16_pointer_calculate\pointer.c(13): warning C4477: “printf”: 格式字符串“%#x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“short *”
+g:\git\c\hm62\d05_jni_01_07_input\-16_pointer_calculate\pointer.c(13): warning C4477: “printf”: 格式字符串“%#x”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“short *”
+g:\git\c\hm62\d05_jni_01_07_input\-16_pointer_calculate\pointer.c(14): warning C4477: “printf”: 格式字符串“%#x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“int *”
+g:\git\c\hm62\d05_jni_01_07_input\-16_pointer_calculate\pointer.c(14): warning C4477: “printf”: 格式字符串“%#x”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“int *”
+g:\git\c\hm62\d05_jni_01_07_input\-16_pointer_calculate\pointer.c(15): warning C4477: “printf”: 格式字符串“%#x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“double *”
+g:\git\c\hm62\d05_jni_01_07_input\-16_pointer_calculate\pointer.c(15): warning C4477: “printf”: 格式字符串“%#x”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“double *”
+  -16_pointer_calculate.vcxproj -> G:\GIT\C\HM62\d05_jni_01_07_input\Debug\-16_pointer_calculate.exe
+  -16_pointer_calculate.vcxproj -> G:\GIT\C\HM62\d05_jni_01_07_input\Debug\-16_pointer_calculate.pdb (Partial PDB)

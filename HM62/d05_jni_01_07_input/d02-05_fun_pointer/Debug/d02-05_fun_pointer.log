@@ -1,0 +1,4 @@
+﻿  fun_pointer.c
+g:\git\c\hm62\d05_jni_01_07_input\d02-05_fun_pointer\fun_pointer.c(27): warning C4013: “system”未定义；假设外部返回 int
+  d02-05_fun_pointer.vcxproj -> G:\GIT\C\HM62\d05_jni_01_07_input\Debug\d02-05_fun_pointer.exe
+  d02-05_fun_pointer.vcxproj -> G:\GIT\C\HM62\d05_jni_01_07_input\Debug\d02-05_fun_pointer.pdb (Partial PDB)

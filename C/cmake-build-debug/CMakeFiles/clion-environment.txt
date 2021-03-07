@@ -1,0 +1,4 @@
+ToolSet: 3.20 (local)@M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW
+Options: 
+
+Options:

@@ -1,0 +1,5 @@
+﻿  pointer.c
+g:\git\c\hm62\d05_jni_01_07_input\-12_pointer_reference\pointer.c(17): warning C4013: “system”未定义；假设外部返回 int
+g:\git\c\hm62\d05_jni_01_07_input\-12_pointer_reference\pointer.c(37): warning C4700: 使用了未初始化的局部变量“temp”
+  -12_pointer_reference.vcxproj -> G:\GIT\C\HM62\d05_jni_01_07_input\Debug\-12_pointer_reference.exe
+  -12_pointer_reference.vcxproj -> G:\GIT\C\HM62\d05_jni_01_07_input\Debug\-12_pointer_reference.pdb (Partial PDB)
