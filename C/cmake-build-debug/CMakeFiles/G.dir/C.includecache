@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/workplace/code/GIT/C/C/c6_/main.c
+D:/workplace/code/GIT/C/C/c6_io/io.c
 stdio.h
+-
+stdlib.h
+-
+string.h
 -
 

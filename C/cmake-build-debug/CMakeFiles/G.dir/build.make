@@ -76,27 +76,27 @@ include CMakeFiles/G.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/G.dir/flags.make
 
-CMakeFiles/G.dir/c6_/main.c.obj: CMakeFiles/G.dir/flags.make
-CMakeFiles/G.dir/c6_/main.c.obj: ../c6_/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/G.dir/c6_/main.c.obj"
-	M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\G.dir\c6_\main.c.obj   -c D:\workplace\code\GIT\C\C\c6_\main.c
+CMakeFiles/G.dir/c6_io/io.c.obj: CMakeFiles/G.dir/flags.make
+CMakeFiles/G.dir/c6_io/io.c.obj: ../c6_io/io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/G.dir/c6_io/io.c.obj"
+	M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\G.dir\c6_io\io.c.obj   -c D:\workplace\code\GIT\C\C\c6_io\io.c
 
-CMakeFiles/G.dir/c6_/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/G.dir/c6_/main.c.i"
-	M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\workplace\code\GIT\C\C\c6_\main.c > CMakeFiles\G.dir\c6_\main.c.i
+CMakeFiles/G.dir/c6_io/io.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/G.dir/c6_io/io.c.i"
+	M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\workplace\code\GIT\C\C\c6_io\io.c > CMakeFiles\G.dir\c6_io\io.c.i
 
-CMakeFiles/G.dir/c6_/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/G.dir/c6_/main.c.s"
-	M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\workplace\code\GIT\C\C\c6_\main.c -o CMakeFiles\G.dir\c6_\main.c.s
+CMakeFiles/G.dir/c6_io/io.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/G.dir/c6_io/io.c.s"
+	M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\workplace\code\GIT\C\C\c6_io\io.c -o CMakeFiles\G.dir\c6_io\io.c.s
 
 # Object files for target G
 G_OBJECTS = \
-"CMakeFiles/G.dir/c6_/main.c.obj"
+"CMakeFiles/G.dir/c6_io/io.c.obj"
 
 # External object files for target G
 G_EXTERNAL_OBJECTS =
 
-G.exe: CMakeFiles/G.dir/c6_/main.c.obj
+G.exe: CMakeFiles/G.dir/c6_io/io.c.obj
 G.exe: CMakeFiles/G.dir/build.make
 G.exe: CMakeFiles/G.dir/linklibs.rsp
 G.exe: CMakeFiles/G.dir/objects1.rsp

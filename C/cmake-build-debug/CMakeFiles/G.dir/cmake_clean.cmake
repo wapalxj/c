@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/G.dir/c6_/main.c.obj"
+  "CMakeFiles/G.dir/c6_io/io.c.obj"
   "G.exe"
   "G.exe.manifest"
   "G.pdb"

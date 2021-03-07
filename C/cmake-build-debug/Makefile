@@ -247,32 +247,32 @@ c.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/c.c.s
 .PHONY : c.c.s
 
-c6_/main.obj: c6_/main.c.obj
+c6_io/io.obj: c6_io/io.c.obj
 
-.PHONY : c6_/main.obj
+.PHONY : c6_io/io.obj
 
 # target to build an object file
-c6_/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\G.dir\build.make CMakeFiles/G.dir/c6_/main.c.obj
-.PHONY : c6_/main.c.obj
+c6_io/io.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\G.dir\build.make CMakeFiles/G.dir/c6_io/io.c.obj
+.PHONY : c6_io/io.c.obj
 
-c6_/main.i: c6_/main.c.i
+c6_io/io.i: c6_io/io.c.i
 
-.PHONY : c6_/main.i
+.PHONY : c6_io/io.i
 
 # target to preprocess a source file
-c6_/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\G.dir\build.make CMakeFiles/G.dir/c6_/main.c.i
-.PHONY : c6_/main.c.i
+c6_io/io.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\G.dir\build.make CMakeFiles/G.dir/c6_io/io.c.i
+.PHONY : c6_io/io.c.i
 
-c6_/main.s: c6_/main.c.s
+c6_io/io.s: c6_io/io.c.s
 
-.PHONY : c6_/main.s
+.PHONY : c6_io/io.s
 
 # target to generate assembly for a file
-c6_/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\G.dir\build.make CMakeFiles/G.dir/c6_/main.c.s
-.PHONY : c6_/main.c.s
+c6_io/io.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\G.dir\build.make CMakeFiles/G.dir/c6_io/io.c.s
+.PHONY : c6_io/io.c.s
 
 main.obj: main.cpp.obj
 
@@ -427,9 +427,9 @@ help:
 	@echo ... c.obj
 	@echo ... c.i
 	@echo ... c.s
-	@echo ... c6_/main.obj
-	@echo ... c6_/main.i
-	@echo ... c6_/main.s
+	@echo ... c6_io/io.obj
+	@echo ... c6_io/io.i
+	@echo ... c6_io/io.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

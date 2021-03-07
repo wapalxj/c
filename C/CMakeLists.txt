@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.6)
 project(C)
 
-set(CMAKE_CXX_STANDARD 11)
-
+#set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_C_STANDARD 99)
 #set(SOURCE_FILES c.c str.c struct.c structarray.c typedef.c)
 #add_executable(C ${SOURCE_FILES} structarray.c typedef.c)
 add_executable(A main.cpp )
@@ -11,4 +11,4 @@ add_executable(C str.c )
 add_executable(D struct/struct.c)
 add_executable(E struct/structarray.c)
 add_executable(F typedef.c)
-add_executable(G c6_/main.c)
+add_executable(G c6_io/io.c)
