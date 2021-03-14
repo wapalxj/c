@@ -68,52 +68,67 @@ CMAKE_SOURCE_DIR = D:\workplace\code\GIT\C\C
 CMAKE_BINARY_DIR = D:\workplace\code\GIT\C\C\cmake-build-debug
 
 # Include any dependencies generated for this target.
-include CMakeFiles/aaa.dir/depend.make
+include CMakeFiles/AAA.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/aaa.dir/progress.make
+include CMakeFiles/AAA.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/aaa.dir/flags.make
+include CMakeFiles/AAA.dir/flags.make
 
-CMakeFiles/aaa.dir/main.cpp.obj: CMakeFiles/aaa.dir/flags.make
-CMakeFiles/aaa.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aaa.dir/main.cpp.obj"
-	M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aaa.dir\main.cpp.obj -c D:\workplace\code\GIT\C\C\main.cpp
+CMakeFiles/AAA.dir/cpp/c1_/overload/fun.cpp.obj: CMakeFiles/AAA.dir/flags.make
+CMakeFiles/AAA.dir/cpp/c1_/overload/fun.cpp.obj: ../cpp/c1_/overload/fun.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AAA.dir/cpp/c1_/overload/fun.cpp.obj"
+	M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AAA.dir\cpp\c1_\overload\fun.cpp.obj -c D:\workplace\code\GIT\C\C\cpp\c1_\overload\fun.cpp
 
-CMakeFiles/aaa.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aaa.dir/main.cpp.i"
-	M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\workplace\code\GIT\C\C\main.cpp > CMakeFiles\aaa.dir\main.cpp.i
+CMakeFiles/AAA.dir/cpp/c1_/overload/fun.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AAA.dir/cpp/c1_/overload/fun.cpp.i"
+	M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\workplace\code\GIT\C\C\cpp\c1_\overload\fun.cpp > CMakeFiles\AAA.dir\cpp\c1_\overload\fun.cpp.i
 
-CMakeFiles/aaa.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aaa.dir/main.cpp.s"
-	M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\workplace\code\GIT\C\C\main.cpp -o CMakeFiles\aaa.dir\main.cpp.s
+CMakeFiles/AAA.dir/cpp/c1_/overload/fun.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AAA.dir/cpp/c1_/overload/fun.cpp.s"
+	M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\workplace\code\GIT\C\C\cpp\c1_\overload\fun.cpp -o CMakeFiles\AAA.dir\cpp\c1_\overload\fun.cpp.s
 
-# Object files for target aaa
-aaa_OBJECTS = \
-"CMakeFiles/aaa.dir/main.cpp.obj"
+CMakeFiles/AAA.dir/cpp/c1_/overload/Student.cpp.obj: CMakeFiles/AAA.dir/flags.make
+CMakeFiles/AAA.dir/cpp/c1_/overload/Student.cpp.obj: ../cpp/c1_/overload/Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AAA.dir/cpp/c1_/overload/Student.cpp.obj"
+	M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AAA.dir\cpp\c1_\overload\Student.cpp.obj -c D:\workplace\code\GIT\C\C\cpp\c1_\overload\Student.cpp
 
-# External object files for target aaa
-aaa_EXTERNAL_OBJECTS =
+CMakeFiles/AAA.dir/cpp/c1_/overload/Student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AAA.dir/cpp/c1_/overload/Student.cpp.i"
+	M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\workplace\code\GIT\C\C\cpp\c1_\overload\Student.cpp > CMakeFiles\AAA.dir\cpp\c1_\overload\Student.cpp.i
 
-aaa.exe: CMakeFiles/aaa.dir/main.cpp.obj
-aaa.exe: CMakeFiles/aaa.dir/build.make
-aaa.exe: CMakeFiles/aaa.dir/linklibs.rsp
-aaa.exe: CMakeFiles/aaa.dir/objects1.rsp
-aaa.exe: CMakeFiles/aaa.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable aaa.exe"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\aaa.dir\link.txt --verbose=$(VERBOSE)
+CMakeFiles/AAA.dir/cpp/c1_/overload/Student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AAA.dir/cpp/c1_/overload/Student.cpp.s"
+	M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\workplace\code\GIT\C\C\cpp\c1_\overload\Student.cpp -o CMakeFiles\AAA.dir\cpp\c1_\overload\Student.cpp.s
+
+# Object files for target AAA
+AAA_OBJECTS = \
+"CMakeFiles/AAA.dir/cpp/c1_/overload/fun.cpp.obj" \
+"CMakeFiles/AAA.dir/cpp/c1_/overload/Student.cpp.obj"
+
+# External object files for target AAA
+AAA_EXTERNAL_OBJECTS =
+
+AAA.exe: CMakeFiles/AAA.dir/cpp/c1_/overload/fun.cpp.obj
+AAA.exe: CMakeFiles/AAA.dir/cpp/c1_/overload/Student.cpp.obj
+AAA.exe: CMakeFiles/AAA.dir/build.make
+AAA.exe: CMakeFiles/AAA.dir/linklibs.rsp
+AAA.exe: CMakeFiles/AAA.dir/objects1.rsp
+AAA.exe: CMakeFiles/AAA.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable AAA.exe"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AAA.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/aaa.dir/build: aaa.exe
+CMakeFiles/AAA.dir/build: AAA.exe
 
-.PHONY : CMakeFiles/aaa.dir/build
+.PHONY : CMakeFiles/AAA.dir/build
 
-CMakeFiles/aaa.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles\aaa.dir\cmake_clean.cmake
-.PHONY : CMakeFiles/aaa.dir/clean
+CMakeFiles/AAA.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles\AAA.dir\cmake_clean.cmake
+.PHONY : CMakeFiles/AAA.dir/clean
 
-CMakeFiles/aaa.dir/depend:
+CMakeFiles/AAA.dir/depend:
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\workplace\code\GIT\C\C D:\workplace\code\GIT\C\C D:\workplace\code\GIT\C\C\cmake-build-debug D:\workplace\code\GIT\C\C\cmake-build-debug D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles\aaa.dir\DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/aaa.dir/depend
+.PHONY : CMakeFiles/AAA.dir/depend
 

@@ -72,13 +72,22 @@ CMAKE_BINARY_DIR = D:\workplace\code\GIT\C\C\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/I.dir/all
 all: CMakeFiles/A.dir/all
-all: CMakeFiles/B.dir/all
 all: CMakeFiles/C.dir/all
 all: CMakeFiles/D.dir/all
 all: CMakeFiles/E.dir/all
 all: CMakeFiles/F.dir/all
+all: CMakeFiles/AAA22.dir/all
 all: CMakeFiles/G.dir/all
+all: CMakeFiles/AA.dir/all
+all: CMakeFiles/H.dir/all
+all: CMakeFiles/J.dir/all
+all: CMakeFiles/K.dir/all
+all: CMakeFiles/AAA.dir/all
+all: CMakeFiles/AAA3.dir/all
+all: CMakeFiles/AAAAAA.dir/all
+all: CMakeFiles/AAAAAAA.dir/all
 
 .PHONY : all
 
@@ -88,15 +97,51 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/I.dir/clean
 clean: CMakeFiles/A.dir/clean
-clean: CMakeFiles/B.dir/clean
 clean: CMakeFiles/C.dir/clean
 clean: CMakeFiles/D.dir/clean
 clean: CMakeFiles/E.dir/clean
 clean: CMakeFiles/F.dir/clean
+clean: CMakeFiles/AAA22.dir/clean
 clean: CMakeFiles/G.dir/clean
+clean: CMakeFiles/AA.dir/clean
+clean: CMakeFiles/H.dir/clean
+clean: CMakeFiles/J.dir/clean
+clean: CMakeFiles/K.dir/clean
+clean: CMakeFiles/AAA.dir/clean
+clean: CMakeFiles/AAA3.dir/clean
+clean: CMakeFiles/AAAAAA.dir/clean
+clean: CMakeFiles/AAAAAAA.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/I.dir
+
+# All Build rule for target.
+CMakeFiles/I.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I.dir\build.make CMakeFiles/I.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I.dir\build.make CMakeFiles/I.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=28,29 "Built target I"
+.PHONY : CMakeFiles/I.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/I.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/I.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/I.dir/rule
+
+# Convenience name for target.
+I : CMakeFiles/I.dir/rule
+
+.PHONY : I
+
+# clean rule for target.
+CMakeFiles/I.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I.dir\build.make CMakeFiles/I.dir/clean
+.PHONY : CMakeFiles/I.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/A.dir
@@ -126,40 +171,13 @@ CMakeFiles/A.dir/clean:
 .PHONY : CMakeFiles/A.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/B.dir
-
-# All Build rule for target.
-CMakeFiles/B.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target B"
-.PHONY : CMakeFiles/B.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/B.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/B.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/B.dir/rule
-
-# Convenience name for target.
-B : CMakeFiles/B.dir/rule
-
-.PHONY : B
-
-# clean rule for target.
-CMakeFiles/B.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\B.dir\build.make CMakeFiles/B.dir/clean
-.PHONY : CMakeFiles/B.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/C.dir
 
 # All Build rule for target.
 CMakeFiles/C.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target C"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target C"
 .PHONY : CMakeFiles/C.dir/all
 
 # Build rule for subdir invocation for target.
@@ -186,7 +204,7 @@ CMakeFiles/C.dir/clean:
 CMakeFiles/D.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\D.dir\build.make CMakeFiles/D.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\D.dir\build.make CMakeFiles/D.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target D"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=18,19 "Built target D"
 .PHONY : CMakeFiles/D.dir/all
 
 # Build rule for subdir invocation for target.
@@ -213,7 +231,7 @@ CMakeFiles/D.dir/clean:
 CMakeFiles/E.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target E"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=20,21 "Built target E"
 .PHONY : CMakeFiles/E.dir/all
 
 # Build rule for subdir invocation for target.
@@ -240,7 +258,7 @@ CMakeFiles/E.dir/clean:
 CMakeFiles/F.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F.dir\build.make CMakeFiles/F.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F.dir\build.make CMakeFiles/F.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target F"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=22,23 "Built target F"
 .PHONY : CMakeFiles/F.dir/all
 
 # Build rule for subdir invocation for target.
@@ -261,13 +279,40 @@ CMakeFiles/F.dir/clean:
 .PHONY : CMakeFiles/F.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/AAA22.dir
+
+# All Build rule for target.
+CMakeFiles/AAA22.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AAA22.dir\build.make CMakeFiles/AAA22.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AAA22.dir\build.make CMakeFiles/AAA22.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target AAA22"
+.PHONY : CMakeFiles/AAA22.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/AAA22.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/AAA22.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/AAA22.dir/rule
+
+# Convenience name for target.
+AAA22: CMakeFiles/AAA22.dir/rule
+
+.PHONY : AAA22
+
+# clean rule for target.
+CMakeFiles/AAA22.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AAA22.dir\build.make CMakeFiles/AAA22.dir/clean
+.PHONY : CMakeFiles/AAA22.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/G.dir
 
 # All Build rule for target.
 CMakeFiles/G.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\G.dir\build.make CMakeFiles/G.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\G.dir\build.make CMakeFiles/G.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target G"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=24,25 "Built target G"
 .PHONY : CMakeFiles/G.dir/all
 
 # Build rule for subdir invocation for target.
@@ -286,6 +331,222 @@ G : CMakeFiles/G.dir/rule
 CMakeFiles/G.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\G.dir\build.make CMakeFiles/G.dir/clean
 .PHONY : CMakeFiles/G.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/AA.dir
+
+# All Build rule for target.
+CMakeFiles/AA.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AA.dir\build.make CMakeFiles/AA.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AA.dir\build.make CMakeFiles/AA.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target AA"
+.PHONY : CMakeFiles/AA.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/AA.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/AA.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/AA.dir/rule
+
+# Convenience name for target.
+AA: CMakeFiles/AA.dir/rule
+
+.PHONY : AA
+
+# clean rule for target.
+CMakeFiles/AA.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AA.dir\build.make CMakeFiles/AA.dir/clean
+.PHONY : CMakeFiles/AA.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/H.dir
+
+# All Build rule for target.
+CMakeFiles/H.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H.dir\build.make CMakeFiles/H.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H.dir\build.make CMakeFiles/H.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=26,27 "Built target H"
+.PHONY : CMakeFiles/H.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/H.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/H.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/H.dir/rule
+
+# Convenience name for target.
+H : CMakeFiles/H.dir/rule
+
+.PHONY : H
+
+# clean rule for target.
+CMakeFiles/H.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\H.dir\build.make CMakeFiles/H.dir/clean
+.PHONY : CMakeFiles/H.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/J.dir
+
+# All Build rule for target.
+CMakeFiles/J.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\J.dir\build.make CMakeFiles/J.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\J.dir\build.make CMakeFiles/J.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=30,31 "Built target J"
+.PHONY : CMakeFiles/J.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/J.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/J.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/J.dir/rule
+
+# Convenience name for target.
+J : CMakeFiles/J.dir/rule
+
+.PHONY : J
+
+# clean rule for target.
+CMakeFiles/J.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\J.dir\build.make CMakeFiles/J.dir/clean
+.PHONY : CMakeFiles/J.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/K.dir
+
+# All Build rule for target.
+CMakeFiles/K.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\K.dir\build.make CMakeFiles/K.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\K.dir\build.make CMakeFiles/K.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=32,33 "Built target K"
+.PHONY : CMakeFiles/K.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/K.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/K.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/K.dir/rule
+
+# Convenience name for target.
+K : CMakeFiles/K.dir/rule
+
+.PHONY : K
+
+# clean rule for target.
+CMakeFiles/K.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\K.dir\build.make CMakeFiles/K.dir/clean
+.PHONY : CMakeFiles/K.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/AAA.dir
+
+# All Build rule for target.
+CMakeFiles/AAA.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AAA.dir\build.make CMakeFiles/AAA.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AAA.dir\build.make CMakeFiles/AAA.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=5,6,7 "Built target AAA"
+.PHONY : CMakeFiles/AAA.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/AAA.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/AAA.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/AAA.dir/rule
+
+# Convenience name for target.
+AAA: CMakeFiles/AAA.dir/rule
+
+.PHONY : AAA
+
+# clean rule for target.
+CMakeFiles/AAA.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AAA.dir\build.make CMakeFiles/AAA.dir/clean
+.PHONY : CMakeFiles/AAA.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/AAA3.dir
+
+# All Build rule for target.
+CMakeFiles/AAA3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AAA3.dir\build.make CMakeFiles/AAA3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AAA3.dir\build.make CMakeFiles/AAA3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target AAA3"
+.PHONY : CMakeFiles/AAA3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/AAA3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/AAA3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/AAA3.dir/rule
+
+# Convenience name for target.
+AAA3: CMakeFiles/AAA3.dir/rule
+
+.PHONY : AAA3
+
+# clean rule for target.
+CMakeFiles/AAA3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AAA3.dir\build.make CMakeFiles/AAA3.dir/clean
+.PHONY : CMakeFiles/AAA3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/AAAAAA.dir
+
+# All Build rule for target.
+CMakeFiles/AAAAAA.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AAAAAA.dir\build.make CMakeFiles/AAAAAA.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AAAAAA.dir\build.make CMakeFiles/AAAAAA.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target AAAAAA"
+.PHONY : CMakeFiles/AAAAAA.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/AAAAAA.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/AAAAAA.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/AAAAAA.dir/rule
+
+# Convenience name for target.
+AAAAAA: CMakeFiles/AAAAAA.dir/rule
+
+.PHONY : AAAAAA
+
+# clean rule for target.
+CMakeFiles/AAAAAA.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AAAAAA.dir\build.make CMakeFiles/AAAAAA.dir/clean
+.PHONY : CMakeFiles/AAAAAA.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/AAAAAAA.dir
+
+# All Build rule for target.
+CMakeFiles/AAAAAAA.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AAAAAAA.dir\build.make CMakeFiles/AAAAAAA.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AAAAAAA.dir\build.make CMakeFiles/AAAAAAA.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target AAAAAAA"
+.PHONY : CMakeFiles/AAAAAAA.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/AAAAAAA.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/AAAAAAA.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workplace\code\GIT\C\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/AAAAAAA.dir/rule
+
+# Convenience name for target.
+AAAAAAA: CMakeFiles/AAAAAAA.dir/rule
+
+.PHONY : AAAAAAA
+
+# clean rule for target.
+CMakeFiles/AAAAAAA.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AAAAAAA.dir\build.make CMakeFiles/AAAAAAA.dir/clean
+.PHONY : CMakeFiles/AAAAAAA.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

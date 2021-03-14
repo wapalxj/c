@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\AAAA.dir/objects.a
+M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW\bin\ar.exe cr CMakeFiles\AAAA.dir/objects.a @CMakeFiles\AAAA.dir\objects1.rsp
+M:\201X\Allpackages\Software\IntelliJ\CLion\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\AAAA.dir/objects.a -Wl,--no-whole-archive  -o AAAA.exe -Wl,--out-implib,libAAAA.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\AAAA.dir\linklibs.rsp

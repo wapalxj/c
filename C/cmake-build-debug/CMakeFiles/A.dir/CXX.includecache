@@ -6,15 +6,3 @@
 
 #IncludeRegexTransform: 
 
-D:/workplace/code/GIT/C/C/c.c
-stdio.h
-D:/workplace/code/GIT/C/C/stdio.h
-
-D:/workplace/code/GIT/C/C/main.cpp
-iostream
--
-stdio.h
--
-c.c
-D:/workplace/code/GIT/C/C/c.c
-
